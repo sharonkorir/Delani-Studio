@@ -75,11 +75,17 @@
 
     <div id="six">
       <h3>CONTACT US</h3>
-      <form action=""></form>
+      <form id="myform" onsubmit="submitForm(event)">
+        <div id="userMessage" class="alert alert-success" hidden></div>
+        <input type="text" id="name" value="Name...">
+        <input type="text" id="email" value="Email..."><br>
+        <input type="text" id="message" value="Your message here...">
+      </form>
     </div>
 
     <div id="seven">
-
+      <p>DELANI STUDIO</p>
+      <p>2019</p>
     </div>
   </div>
   

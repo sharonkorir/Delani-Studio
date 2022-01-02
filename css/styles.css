@@ -61,12 +61,12 @@
   grid-area: six;
   color: white;
   text-align: center;
-  margin: 60px;
 }
 
 #seven{
-  background-color: indigo;
+  background-color: white;
   grid-area: seven;
+  text-align: center;
 }
 
 .hidden{
@@ -81,4 +81,7 @@
   display: flex;
   justify-content: space-between;
   padding: 60px;
+}
+form{
+  opacity: 20%;
 }
