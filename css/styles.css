@@ -71,8 +71,14 @@
   line-height: 0px;
 }
 
-.hidden{
+#design-hidden, #dev-hidden, #product-hidden{
   display: none;
+  text-align: center;
+}
+
+.design, .development, .product{
+  float: left;
+  cursor: pointer;
 }
 
 .flex{
@@ -91,7 +97,4 @@ form{
 }
 .socials{
   padding: 20px;
-}
-.clickable{
-  cursor: pointer;
 }

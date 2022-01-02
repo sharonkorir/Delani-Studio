@@ -1,8 +1,20 @@
 //create toggle effect for 'what we do' section
 $(document).ready(function(){
-  $("#.clickable").click(function(){
-    $("hidden").toggle();
-    $("showing").toggle();
+  $(".development").click(function(){
+    $("#dev-hidden").toggle();
+    $("#dev-showing").toggle();
+  });
+});
+$(document).ready(function(){
+  $(".design").click(function(){
+    $("#design-hidden").toggle();
+    $("#design-showing").toggle();
+  });
+});
+$(document).ready(function(){
+  $(".product").click(function(){
+    $("#product-hidden").toggle();
+    $("#product-showing").toggle();
   });
 });
 
