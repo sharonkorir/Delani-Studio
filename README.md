@@ -7,7 +7,7 @@ This is a web application of a landing page for a fctional studio that showcases
 I am currently a software development student at Moringa School
 ## Setup/Installation Requirements
 * Click on the link https://sharonkorir.github.io/Delani-Studio/
-* 
+* Launch the application on your web browser
 ## BDD
 ## Technologies Used
 This application uses HTML forms to collect input. The landing page has been styled using CSS and Bootstrap. JS functions are used to collect information through HTML forms. The website is made interactive using jQuery.
