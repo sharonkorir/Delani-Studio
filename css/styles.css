@@ -1,3 +1,7 @@
+@font-face {
+  font-family: 'Source Code Pro';
+  src: url(https://fonts.google.com/specimen/Source+Code+Pro?query=source+code+pro);
+}
 .grid-container{
   display: grid;
   grid-template-areas:
@@ -13,14 +17,18 @@
 #one{
   grid-area: one;
   background-image: url(../assets/h_img.jpg);
+  background-size: cover;
+  height: 620px;
   background-repeat: no-repeat;
-  height: 800px;
-  width: auto;
+  text-align: center;
+  color: white;
+  font-family: 'Source Code Pro';
 }
 
 #two{
   background-color: white;
   grid-area: two;
+  text-align: center;
 }
 
 #three{
