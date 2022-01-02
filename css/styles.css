@@ -1,0 +1,46 @@
+.grid-container{
+  display: grid;
+  grid-template-areas:
+  'one one one one one one'
+  'two two two two two two'
+  'three three three three three three'
+  'four four four four four four'
+  'five five five five five five'
+  'six six six six six six'
+  'seven seven seven seven seven seven';
+}
+
+#one{
+  background-color: red;
+  grid-area: one;
+}
+
+#two{
+  background-color: orange;
+  grid-area: two;
+}
+
+#three{
+  background-color: yellow;
+  grid-area: three;
+}
+
+#four{
+  background-color: green;
+  grid-area: four;
+}
+
+#five{
+  background-color: blue;
+  grid-area: five;
+}
+
+#six{
+  background-color: indigo;
+  grid-area: six;
+}
+
+#seven{
+  background-color: violet;
+  grid-area: seven;
+}
