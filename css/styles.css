@@ -11,8 +11,11 @@
 }
 
 #one{
-  background-color: red;
   grid-area: one;
+  background-image: url(../assets/h_img.jpg);
+  background-repeat: no-repeat;
+  height: 800px;
+  width: auto;
 }
 
 #two{

@@ -2,7 +2,7 @@ Delani Studio
 #### A landing page for a fictional studio known as Delani Studio, 2nd January, 2022
 #### By **Sharon Korir**
 ## Description
-This is a web application of a landing page for a fctional studio that showcases their services, what they do, their portfolio and their contact information.
+This is a web application of a landing page for a fictional studio that showcases their services, what they do, their portfolio and their contact information.
 ## Author's information
 I am currently a software development student at Moringa School
 ## Setup/Installation Requirements
