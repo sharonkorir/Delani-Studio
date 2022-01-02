@@ -74,7 +74,8 @@
 .hidden{
   display: none;
 }
-#flex{
+
+.flex{
   display: flex;
   justify-content: space-around;
   padding: 40px;
@@ -83,10 +84,14 @@
   display: flex;
   justify-content: space-between;
   padding: 60px;
+  max-width: 100%;
 }
 form{
   opacity: 20%;
 }
 .socials{
   padding: 20px;
+}
+.clickable{
+  cursor: pointer;
 }
