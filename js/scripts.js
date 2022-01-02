@@ -42,6 +42,7 @@ $(document).ready(function(){
   });
 });
 
+//business logic
 //create feedback on form submission
 function submitForm (event){
   event.preventDefault();

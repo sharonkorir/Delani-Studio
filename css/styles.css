@@ -93,7 +93,14 @@
   max-width: 100%;
 }
 form{
-  opacity: 20%;
+  opacity: 30%;
+  padding: 10px;
+  align-content: center;
+}
+input, #name, #email{
+  border: 10px solid white;
+  margin: 20px;
+  padding: 10px;
 }
 .socials{
   padding: 20px;
