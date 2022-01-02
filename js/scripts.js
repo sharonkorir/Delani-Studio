@@ -4,19 +4,18 @@ $(document).ready(function(){
     $("#dev-hidden").toggle();
     $("#dev-showing").toggle();
   });
-});
-$(document).ready(function(){
   $(".design").click(function(){
     $("#design-hidden").toggle();
     $("#design-showing").toggle();
   });
-});
-$(document).ready(function(){
   $(".product").click(function(){
     $("#product-hidden").toggle();
     $("#product-showing").toggle();
   });
 });
+
+// create hover effect on portfolio
+$( portfolio).mouseenter( handlerIn ).mouseleave( handlerOut );
 
 //create feedback on form submission
 function submitForm (event){
