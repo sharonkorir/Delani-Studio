@@ -98,3 +98,15 @@ form{
 .socials{
   padding: 20px;
 }
+.box{
+  position: relative;
+}
+.project-name{
+  display: none;
+  background-color:white ;
+  opacity: 60%;
+  position: absolute;
+  bottom: 120px;
+  left: 120px;
+  padding: 20px;
+}

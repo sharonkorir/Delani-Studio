@@ -15,7 +15,11 @@ $(document).ready(function(){
 });
 
 // create hover effect on portfolio
-$( portfolio).mouseenter( handlerIn ).mouseleave( handlerOut );
+$(document).ready(function(){
+  $(".box").hover(function(){
+    $(".project-name").toggle();
+  });
+});
 
 //create feedback on form submission
 function submitForm (event){
