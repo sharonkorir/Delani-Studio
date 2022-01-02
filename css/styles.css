@@ -18,11 +18,10 @@
   grid-area: one;
   background-image: url(../assets/h_img.jpg);
   background-size: cover;
-  height: 620px;
   background-repeat: no-repeat;
   text-align: center;
   color: white;
-  font-family: 'Source Code Pro';
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #two{
@@ -32,8 +31,12 @@
 }
 
 #three{
-  background-color: yellow;
+  background-image: url(../assets/s_image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
   grid-area: three;
+  text-align: center;
+  color: white;
 }
 
 #four{
