@@ -42,11 +42,13 @@
 #four{
   background-color: white;
   grid-area: four;
+  text-align: center;
 }
 
 #five{
-  background-color: blue;
+  background-color: white;
   grid-area: five;
+  text-align: center;
 }
 
 #six{
@@ -57,4 +59,12 @@
 #seven{
   background-color: violet;
   grid-area: seven;
+}
+
+.hidden{
+  display: none;
+}
+#flex{
+  display: flex;
+  justify-content: space-around;
 }
