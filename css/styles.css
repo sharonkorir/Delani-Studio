@@ -67,6 +67,8 @@
   background-color: white;
   grid-area: seven;
   text-align: center;
+  font-size: 8pt;
+  line-height: 0px;
 }
 
 .hidden{
@@ -84,4 +86,7 @@
 }
 form{
   opacity: 20%;
+}
+.socials{
+  padding: 20px;
 }
