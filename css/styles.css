@@ -98,10 +98,10 @@ form{
 .socials{
   padding: 20px;
 }
-.box{
+#box-one, #box-two, #box-three, #box-four, #box-five, #box-six, #box-seven, #box-eight{
   position: relative;
 }
-.project-name{
+#project-one, #project-two, #project-three, #project-four, #project-five, #project-six, #project-seven, #project-eight{
   display: none;
   background-color:white ;
   opacity: 60%;
