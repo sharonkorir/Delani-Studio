@@ -1,9 +1,9 @@
 @font-face {
-  font-family: 'Source Code Pro';
-  src: url(https://fonts.google.com/specimen/Source+Code+Pro?query=source+code+pro);
+  font-family: 'Advent Pro';
+  src: url(https://fonts.google.com/specimen/Advent+Pro);
 }
 body{
-  font-family: ;
+  font-family: 'Advent Pro';
 }
 .grid-container{
   display: grid;
