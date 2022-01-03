@@ -2,6 +2,9 @@
   font-family: 'Source Code Pro';
   src: url(https://fonts.google.com/specimen/Source+Code+Pro?query=source+code+pro);
 }
+body{
+  font-family: ;
+}
 .grid-container{
   display: grid;
   grid-template-areas:
@@ -11,8 +14,7 @@
   'four four four four'
   'five five five five'
   'six six six six'
-  'seven seven seven seven'
-  'eight eight eight eight';
+  'seven seven seven seven';
 }
 
 #one{
@@ -23,12 +25,15 @@
   text-align: center;
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 80px;
+  font-size: 18px ;
 }
 
 #two{
   background-color: white;
   grid-area: two;
   text-align: center;
+  padding: 60px;
 }
 
 #three{
@@ -38,6 +43,7 @@
   grid-area: three;
   text-align: center;
   color: white;
+  padding: 100px;
 }
 
 #four{
@@ -61,6 +67,7 @@
   grid-area: six;
   color: white;
   text-align: center;
+  padding: 60px;
 }
 
 #seven{
@@ -69,6 +76,7 @@
   text-align: center;
   font-size: 8pt;
   line-height: 0px;
+  padding: 20px;
 }
 
 #design-hidden, #dev-hidden, #product-hidden{
