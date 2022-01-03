@@ -97,7 +97,7 @@ body{
 .portfolio{
   display: flex;
   justify-content: space-between;
-  padding: 60px;
+  padding: 30px;
   max-width: 100%;
 }
 form{
