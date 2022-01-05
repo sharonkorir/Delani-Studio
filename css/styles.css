@@ -131,10 +131,10 @@ input, #name, #email, textarea{
 #project-one, #project-two, #project-three, #project-four, #project-five, #project-six, #project-seven, #project-eight{
   display: none;
   background-color:white ;
-  opacity: 60%;
+  opacity: 80%;
   position: absolute;
   bottom: 120px;
-  left: 120px;
+  left: 150px;
   padding: 20px;
 }
 
