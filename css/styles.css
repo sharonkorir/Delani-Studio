@@ -96,10 +96,7 @@ body{
   justify-content: space-around;
   padding: 40px;
 }
-.row{
-  display: flex;
-  padding: 30px;
-}
+
 form{
   padding: 10px;
   align-content: center;
@@ -116,14 +113,12 @@ input, #name, #email, textarea{
 .socials{
   padding: 20px;
 }
-/*#box-one, #box-two, #box-three, #box-four, #box-five, #box-six, #box-seven, #box-eight{
-  position: relative;
-  float: left;
-  width: 25%;
-  padding: 10px;
-}*/
+.row{
+  display: flex;
+  padding: 30px;
+}
 .column{
-  /*position: relative;*/
+  position: relative;
   float: left;
   width: 25%;
   padding: 10px;
@@ -149,15 +144,16 @@ input, #name, #email, textarea{
    width: 80%;
   }
 }*/
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1200px) {
   .column{
     width: 50%;
+    padding: 10px;
   }
   textarea{
     width: 50%;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
   .column{
     width: 100%;
   }

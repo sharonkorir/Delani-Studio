@@ -16,28 +16,28 @@ $(document).ready(function(){
 
 // create hover effect on portfolio
 $(document).ready(function(){
-  $("#box-one").hover(function(){
+  $("#proj-one").hover(function(){
     $("#project-one").toggle();
   });
-  $("#box-two").hover(function(){
+  $("#proj-two").hover(function(){
     $("#project-two").toggle();
   });
-  $("#box-three").hover(function(){
+  $("#proj-three").hover(function(){
     $("#project-three").toggle();
   });
-  $("#box-four").hover(function(){
+  $("#proj-four").hover(function(){
     $("#project-four").toggle();
   });
-  $("#box-five").hover(function(){
+  $("#proj-five").hover(function(){
     $("#project-five").toggle();
   });
-  $("#box-six").hover(function(){
+  $("#proj-six").hover(function(){
     $("#project-six").toggle();
   });
-  $("#box-seven").hover(function(){
+  $("#proj-seven").hover(function(){
     $("#project-seven").toggle();
   });
-  $("#box-eight").hover(function(){
+  $("#proj-eight").hover(function(){
     $("#project-eight").toggle();
   });
 });
