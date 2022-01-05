@@ -82,11 +82,13 @@ body{
 #design-hidden, #dev-hidden, #product-hidden{
   display: none;
   text-align: center;
+  
 }
 
 .design, .development, .product{
   float: left;
   cursor: pointer;
+  max-width: 33%;
 }
 
 .flex{
@@ -118,7 +120,9 @@ input, #name, #email, textarea{
 }
 #box-one, #box-two, #box-three, #box-four, #box-five, #box-six, #box-seven, #box-eight{
   position: relative;
+  width: 100%;
 }
+
 #project-one, #project-two, #project-three, #project-four, #project-five, #project-six, #project-seven, #project-eight{
   display: none;
   background-color:white ;
