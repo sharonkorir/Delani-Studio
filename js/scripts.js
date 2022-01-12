@@ -47,6 +47,8 @@ $(document).ready(function(){
 function submitForm (event){
   event.preventDefault();
   console.log("test");
+  var userName = document.getElementById("name").value;
+  console.log(userName);
   document.getElementById("userMessage").hidden = false;
-  document.getElementById("userMessage").innerText = "We have received your message. Thank you for contacting us";
+  document.getElementById("userMessage").innerText = "We have received your message " + userName + ". Thank you for contacting us";
 }
