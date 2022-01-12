@@ -128,10 +128,14 @@ input, #name, #email, textarea{
   padding: 10px;
 }
 
+.column:hover {
+  opacity: 80%;
+  transform: scale(110%); 
+}
+
 #project-one, #project-two, #project-three, #project-four, #project-five, #project-six, #project-seven, #project-eight{
   display: none;
   background-color:white ;
-  opacity: 80%;
   position: absolute;
   bottom: 120px;
   left: 150px;
