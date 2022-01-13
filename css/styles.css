@@ -139,16 +139,15 @@ input, #name, #email, #feedback{
   }
 }*/
 
-@media screen and (max-width: 414px) {
-  div{
-    padding: 100px, 10px, 100px, 10px;
+@media screen and (max-width: 768px) {
+  .grid-container{
+    text-align:center;
+    margin: 30px;
+    padding: 10px;
   }
   .column{
+    float: left;
     width: 100%;
-  }
-  #five{
-    background-color: white;
-    grid-area: five;
-    text-align: center;
+    padding: 5px;
   }
 }
