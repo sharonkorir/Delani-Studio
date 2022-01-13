@@ -50,5 +50,5 @@ function submitForm (event){
   var userName = document.getElementById("name").value;
   console.log(userName);
   document.getElementById("userMessage").hidden = false;
-  document.getElementById("userMessage").innerText = "We have received your message " + userName + ". Thank you for contacting us";
+  document.getElementById("userMessage").innerText = "We have received your message " + userName + " Thank you for contacting us";
 }

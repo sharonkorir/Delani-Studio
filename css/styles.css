@@ -8,13 +8,13 @@ body{
 .grid-container{
   display: grid;
   grid-template-areas:
-  'one one one one'
-  'two two two two'
-  'three three three three'
-  'four four four four'
-  'five five five five'
-  'six six six six'
-  'seven seven seven seven';
+  'one one one one one one'
+  'two two two two two two'
+  'three three three three three three'
+  'four four four four four four'
+  'five five five five five five'
+  'six six six six six six'
+  'seven seven seven seven seven seven';
 }
 
 #one{
@@ -24,7 +24,6 @@ body{
   background-repeat: no-repeat;
   text-align: center;
   color: white;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding: 80px;
   font-size: 18px ;
 }
@@ -62,8 +61,8 @@ body{
 
 #six{
   background-image: url(../assets/c_image.jpg);
-  background-size: cover;
   background-repeat: no-repeat;
+  background-size: cover;
   grid-area: six;
   color: white;
   text-align: center;
@@ -75,7 +74,6 @@ body{
   grid-area: seven;
   text-align: center;
   font-size: 8pt;
-  line-height: 0px;
   padding: 20px;
 }
 
@@ -96,29 +94,15 @@ body{
   padding: 40px;
 }
 
-form{
-  padding: 10px;
-  align-content: center;
-}
-
-input, #name, #email, textarea{
-  border: 2px solid white;
-  margin: 20px;
-  padding: 10px;
+input, #name, #email, #feedback{
+  border: 1px solid white;
   background: transparent;
-}
-
-::placeholder{
-  color: white;
+  margin: 10px;
+  align-items: center;
 }
 
 .socials{
   padding: 20px;
-}
-
-.row{
-  display: flex;
-  padding: 30px;
 }
 
 .column{
@@ -142,17 +126,29 @@ input, #name, #email, textarea{
   padding: 20px;
 }
 
-@media screen and (max-width: 1200px) {
+/*@media screen and (max-width: 1200px) {
   .column{
     width: 50%;
-    padding: 10px;
+    padding: 5px;
   }
   textarea{
     width: 50%;
   }
-}
-@media screen and (max-width: 768px) {
+  .row{
+    display: flex;
+  }
+}*/
+
+@media screen and (max-width: 414px) {
+  div{
+    padding: 100px, 10px, 100px, 10px;
+  }
   .column{
     width: 100%;
+  }
+  #five{
+    background-color: white;
+    grid-area: five;
+    text-align: center;
   }
 }

@@ -116,15 +116,19 @@
 
     <div id="six">
       <h3>CONTACT US</h3>
-      <form id="myform" onsubmit="submitForm(event)">
-        <input type="text" id="name" placeholder="Name...">
-        <input type="text" id="email" placeholder="Email...">
-        <br>
-        <textarea name="nessage" id="feedback" cols="50" rows="10" placeholder="Your message here..."></textarea>
-        <div id="userMessage" class="alert alert-success" hidden></div>
-        <br>
-        <input type="submit">
-      </form>
+      <div class="form-group">
+        <form id="myform" onsubmit="submitForm(event)">
+          <div style="display: flex;">
+            <input type="text" class="form-control" id="name" placeholder="Name...">
+            <input type="text" class="form-control" id="email" placeholder="Email...">
+          </div>
+          <div>
+            <textarea name="message" class="form-control" id="feedback" placeholder="Your message here..."></textarea>
+          </div>
+          <div id="userMessage" class="alert alert-success" hidden></div>
+          <input type="submit">
+        </form>
+      </div>
     </div>
 
     <div id="seven">
